@@ -9,3 +9,16 @@ Find Code Caves in PE.
 # RoadMap
 - [x] PE 
 - [ ] ELF 
+```
+$ python codecaves_.py -h
+usage: codecaves_.py [-h] -f INPUTFILE [-s SIZE] [-b BASE]
+
+C0d3 Cave in PE
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f INPUTFILE, --file INPUTFILE
+                        PE file
+  -s SIZE, --size SIZE  cave size min
+  -b BASE, --base BASE  Image base
+```
